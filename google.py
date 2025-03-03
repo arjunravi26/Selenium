@@ -21,14 +21,6 @@ try:
     link = driver.find_element(By.PARTIAL_LINK_TEXT,"Arjun Ravi arjunravi26")
     link.click()
 
-    # for c in text:
-    #     input_element.send_keys(c)
-    #     t = np.random.uniform(0.1, 0.5)
-    #     time.sleep(t)
-
-    # time.sleep(2)
-    # input_element.send_keys(Keys.ENTER)
-
     time.sleep(5)
 finally:
     driver.quit()
