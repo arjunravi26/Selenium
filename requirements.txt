@@ -1,0 +1,3 @@
+selenium==4.29.0
+numpy
+undetected-chromedriver
