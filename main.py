@@ -15,21 +15,14 @@ driver = uc.Chrome()
 driver.get('https://google.com')
 time.sleep(2)
 driver.set_window_size(1920, 1080)
-input_element = driver.find_element(By.NAME, "user_email") #gLFyf password
+input_element = driver.find_element(By.NAME, "q")
 time.sleep(5)
-text = "arjunravi1523@gmail.com"
+text = "kuxuy09"
 for c in text:
     input_element.send_keys(c)
     t = np.random.uniform(0.1,0.5)
     time.sleep(t)
 time.sleep(2)
-# input_element = driver.find_element(By.NAME, "password") #gLFyf password
-# time.sleep(5)
-# text = "3JbZPqHiX3ZFThJ"
-# for c in text:
-#     input_element.send_keys(c)
-#     t = np.random.uniform(0.1,0.5)
-#     time.sleep(t)
 time.sleep(2)
 input_element.send_keys(Keys.ENTER)
 
